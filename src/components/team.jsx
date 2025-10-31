@@ -1,27 +1,24 @@
 import React from "react";
 import useScrollAnimation from "../hooks/useScrollAnimation";
-import drSathiyamoorthy from "../assets/images/dr-sathiyamoorthy.jpg";
-import drKasipandi from "../assets/images/dr-kasipandi.jpg";
-import drVimalan from "../assets/images/dr-vimalan.jpg";
 
 const teamMembers = [
   {
     name: "Dr. Vimalan Vijay",
     qualification: "Ph.D. (IIT Madras)",
     role: "Founder & Mentor",
-    image: drVimalan,
+    image: "/neuroX/images/dr-vimalan.jpg",
     description: "With 15+ years of experience, Dr. Vimalan transforms learning into a structured, concept-driven, and motivating journey. A passionate educator and mentor, he turns fear into fascination and helps students reach their highest potential."
   },
   {
     name: "Dr. Kasipandi Vellaisamy",
     qualification: "Ph.D. (IIT Madras)",
-    image: drKasipandi,
+    image: "/neuroX/images/dr-kasipandi.jpg",
     description: "Dr. Kasipandi is known for simplifying complex ideas and making learning engaging and enjoyable. With a learner-focused approach, he inspires confidence and clarity through logic, guidance, and smart strategy."
   },
   {
     name: "Dr. Krishnan Sathiyamoorthy",
     qualification: "Ph.D. (IIT Madras)",
-    image: drSathiyamoorthy,
+    image: "/neuroX/images/dr-sathiyamoorthy.jpg",
     description: "A dynamic mentor and researcher, Dr. Krishnan blends scientific depth with simplicity, turning challenging concepts into intuitive understanding. His teaching inspires curiosity, confidence, and a love for learning."
   }
 ];

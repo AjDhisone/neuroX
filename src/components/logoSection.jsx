@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../assets/images/logo.png';
 
 const LogoSection = () => {
   return (
@@ -7,7 +6,7 @@ const LogoSection = () => {
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex flex-col items-center justify-center text-center">
           <img 
-            src={logo} 
+            src="/neuroX/images/logo.png" 
             alt="NeuroX Academy Logo" 
             className="h-32 w-32 md:h-40 md:w-40 rounded-2xl shadow-2xl mb-6 ring-4 ring-scholarly-teal/20"
           />

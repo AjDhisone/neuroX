@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 // Make sure this path is correct for your project structure.
-import logo from '../assets/images/logo.png';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -28,7 +27,7 @@ const Navbar = () => {
           {/* --- Logo section --- */}
           <div className="flex-shrink-0">
             <a href="#home" className="flex items-center text-white">
-              <img src={logo} alt="neuroX logo" className="mr-3 h-16 w-16 rounded-md" />
+              <img src="/neuroX/images/logo.png" alt="neuroX logo" className="mr-3 h-16 w-16 rounded-md" />
               <span className="hidden min-[910px]:inline text-3xl font-poppins font-bold">
                 NeuroX
               </span>

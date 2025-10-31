@@ -1,5 +1,4 @@
 import React from 'react';
-import heroimg from '../assets/images/hero.png';
 
 const HeroSection = () => {
   const colors = {
@@ -17,7 +16,7 @@ const HeroSection = () => {
     >
       <div className="absolute inset-0 lg:hidden">
         <img 
-          src={heroimg} 
+          src="/neuroX/images/hero.png" 
           alt="Students learning with NeuroX" 
           className="w-full h-full object-cover" 
           loading="eager"

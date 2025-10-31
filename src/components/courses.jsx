@@ -1,33 +1,29 @@
 import React, { useState } from 'react';
 import useScrollAnimation from '../hooks/useScrollAnimation';
-import foundationImg from '../assets/images/foundation.png';
-import targetImg from '../assets/images/target.png';
-import crashCourseImg from '../assets/images/crash course.png';
-import repeaterImg from '../assets/images/reapeater.png';
 import EnrollmentModal from './EnrollmentModal';
 
 const coursesData = [
   {
     name: "Foundation NEET 2027",
-    image: foundationImg,
+    image: "/neuroX/images/foundation.png",
     tags: ["Thanglish"],
     description: "For Class 11th Students. Build a solid base for NEET success.",
   },
   {
     name: "Target NEET 2026",
-    image: targetImg,
+    image: "/neuroX/images/target.png",
     tags: ["POPULAR", "Thanglish"],
     description: "For Class 12th Students. Comprehensive prep with mock tests.",
   },
   {
     name: "NEET Crash Course",
-    image: crashCourseImg,
+    image: "/neuroX/images/crash course.png",
     tags: ["FAST-TRACK", "Thanglish"],
     description: "Quick revision focusing on high-yield topics and strategies.",
   },
   {
     name: "Repeater Batch 2026",
-    image: repeaterImg,
+    image: "/neuroX/images/reapeater.png",
     tags: ["FOCUSED", "Thanglish"],
     description: "For droppers seeking to fix weak areas and maximize score.",
   },

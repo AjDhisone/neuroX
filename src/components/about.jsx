@@ -1,6 +1,5 @@
 import React from 'react';
 import useScrollAnimation from '../hooks/useScrollAnimation';
-import logo from '../assets/images/logo.png';
 
 const CheckIcon = () => (
   <svg
@@ -81,7 +80,7 @@ export default function AboutSection() {
               {/* Logo with premium styling */}
               <div className="relative group mb-8">
                 <img 
-                  src={logo} 
+                  src="/neuroX/images/logo.png" 
                   alt="NeuroX Academy Logo" 
                   className="relative h-40 w-40 md:h-48 md:w-48 rounded-3xl shadow-2xl ring-4 ring-scholarly-teal/30 group-hover:ring-scholarly-teal/50 transition-all duration-500 group-hover:scale-105"
                   loading="lazy"
