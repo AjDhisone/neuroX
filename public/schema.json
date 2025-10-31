@@ -1,0 +1,68 @@
+{
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "name": "NeuroX Academy",
+  "description": "Expert NEET coaching in Chennai with 15+ years of experience. Learn from IIT Madras Ph.D. faculty.",
+  "url": "https://neuroxacademy.com",
+  "logo": "https://neuroxacademy.com/logo.png",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Casagrand, Kanathur",
+    "addressLocality": "Chennai",
+    "postalCode": "603112",
+    "addressCountry": "IN"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+91-9043812290",
+    "contactType": "Customer Service",
+    "email": "faculty.neurox@gmail.com"
+  },
+  "sameAs": [
+    "https://neuroxacademy.com"
+  ],
+  "founder": {
+    "@type": "Person",
+    "name": "Dr. Vimalan Vijay",
+    "jobTitle": "Founder & Mentor",
+    "alumniOf": "IIT Madras"
+  },
+  "offers": [
+    {
+      "@type": "Course",
+      "name": "Foundation NEET 2027",
+      "description": "For Class 11th Students. Build a solid base for NEET success.",
+      "provider": {
+        "@type": "EducationalOrganization",
+        "name": "NeuroX Academy"
+      }
+    },
+    {
+      "@type": "Course",
+      "name": "Target NEET 2026",
+      "description": "For Class 12th Students. Comprehensive prep with mock tests.",
+      "provider": {
+        "@type": "EducationalOrganization",
+        "name": "NeuroX Academy"
+      }
+    },
+    {
+      "@type": "Course",
+      "name": "NEET Crash Course",
+      "description": "Quick revision focusing on high-yield topics and strategies.",
+      "provider": {
+        "@type": "EducationalOrganization",
+        "name": "NeuroX Academy"
+      }
+    },
+    {
+      "@type": "Course",
+      "name": "Repeater Batch 2026",
+      "description": "For droppers seeking to fix weak areas and maximize score.",
+      "provider": {
+        "@type": "EducationalOrganization",
+        "name": "NeuroX Academy"
+      }
+    }
+  ]
+}
